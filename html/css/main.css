@@ -1,0 +1,161 @@
+@font-face {
+    font-family: '나눔스퀘어';
+    src : url(../font/NanumSquareAcB.woff)
+}
+
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'gulim', '나눔스퀘어';
+}
+
+.f-small {
+    font-size: 12px;
+}
+
+.f-mid {
+    font-size: 16px;
+}
+
+.f-lg {
+    font-size: 20px;
+}
+/* 위 코드들은 고정 */
+
+td {
+    border-bottom: 1px solid rgb(193, 190, 190);
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.container  {
+    width: 100%;
+    background-color:rgba(116, 110, 110, 0.34);
+    padding: 50px;
+}
+
+.container h2 {
+    color: blue;
+}
+
+.amount {
+    text-align: right;
+    width: 70px;
+}
+
+.total {
+    color: rgb(104, 104, 175);
+    font-weight: bold;
+}
+
+h5 {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+button {
+    background-color: rgb(89, 89, 154);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+.btn:hover {
+    background-color: chocolate;
+}
+
+.btn:focus {
+    background-color: gray;
+}
+
+.btn:active {
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.action {
+    display: inline-block;
+}
+
+.input-test {
+    font-size: 20px;
+}
+
+.input-test:focus {
+    border-bottom: 2px solid black;
+}
+
+
+.custom-link:link {
+    color: aqua;
+}
+
+.custom-link:visited {
+    color: black;
+}
+
+.main-btn {
+    padding: 15px;
+    border: none;
+    cursor:pointer;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+p, h4, h3, h2, h1, span {
+    transform: rotate(0.03deg);
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}
+
+.flex-container {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    background-color: coral;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    font-weight: 700;
+    height: 30px;
+    align-items: center;
+    padding: 10px;
+}
+
+nav div {
+    margin-right: 10px;
+}
+
+.test {
+    width: 12rem;
+    height: 50px;
+    background: grey;
+}
+
+@media screen and (max-width:1200px) {
+    .main-title {
+        font-size: 30px;
+    }
+}
